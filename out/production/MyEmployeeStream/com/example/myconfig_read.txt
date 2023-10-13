@@ -1,0 +1,22 @@
+server.port=3331
+
+spring.sql.init.mode=always
+spring.datasource.url=jdbc:h2:mem:bookmarkdb
+#spring.datasource.url=jdbc:h2:file:D:/rbt_micro/SampleMicroServiceRestTestWebClient/data/employeedb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#enabling the H2 console
+spring.h2.console.enabled=true
+
+# custome H2 console url, Default is h2-console
+spring.h2.console.path=/h2
+
+
+spring.jpa.hibernate.ddl-auto=none
+
+#spring.jpa.open-in-view=false
+spring.jpa.show-sql=true
+#spring.h2.console.settings.trace=false
+#spring.h2.console.settings.web-allow-others=false
