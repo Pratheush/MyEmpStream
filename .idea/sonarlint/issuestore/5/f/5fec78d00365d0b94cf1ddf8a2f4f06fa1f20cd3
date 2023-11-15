@@ -1,0 +1,19 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çæÁÚ8½³è©1
+r
+java:S3655m"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Îå—ëûÿÿÿÿ8ã³è©1
+G	java:S106"+Replace this use of System.out by a logger.(óàñ8è³è©1
+G	java:S106"+Replace this use of System.out by a logger.(£ŒÂ÷8é³è©1
+L	java:S106"+Replace this use of System.out by a logger.(ñşçÿÿÿÿÿ8é³è©1
+X	java:S125"<This block of commented-out lines of code should be removed.(ßàªÇ8é³è©1
+L	java:S106"+Replace this use of System.out by a logger.(Òæõ”şÿÿÿÿ8Éœ¶è©1
+L	java:S106"+Replace this use of System.out by a logger.(Æœ…²øÿÿÿÿ8Ğí¶è©1
+I
+java:S1481("'Remove this unused "ch" local variable.(‘œ´ÿÿÿÿÿ8î³è©1
+]	java:S125)"<This block of commented-out lines of code should be removed.(“„Ğ’ûÿÿÿÿ8î³è©1
+L	java:S1065"+Replace this use of System.out by a logger.( ¹ïûÿÿÿÿ8Š¼·è©1
+]	java:S125j"<This block of commented-out lines of code should be removed.(¼ãÌ€şÿÿÿÿ8ù³è©1
+o	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÂ’ºüÿÿÿÿ8ú³è©1
+X	java:S125~"<This block of commented-out lines of code should be removed.(‚Æ¡’8ı³è©1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ı³è©1

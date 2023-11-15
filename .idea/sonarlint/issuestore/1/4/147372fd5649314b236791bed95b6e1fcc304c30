@@ -1,0 +1,115 @@
+
+Q
+java:S3740/"/Provide the parametrized type for this generic.(š®—ùıÿÿÿÿ8Æ‰—Ÿª1
+L
+java:S3740@"/Provide the parametrized type for this generic.(í¨¶×8Æ‰—Ÿª1
+K
+java:S3740C"/Provide the parametrized type for this generic.(úÌÀy8Æ‰—Ÿª1
+M
+java:S3740ì"/Provide the parametrized type for this generic.(ÚÁÌ8Ç‰—Ÿª1
+M
+java:S3740í"/Provide the parametrized type for this generic.(¢Ë×8Ç‰—Ÿª1
+R
+java:S3740î"/Provide the parametrized type for this generic.(ñó‡«ùÿÿÿÿ8Ç‰—Ÿª1
+M
+java:S3740"/Provide the parametrized type for this generic.(÷££æ8Ç‰—Ÿª1
+w
+java:S1192×"YDefine a constant instead of duplicating this literal "
+\s\t java hungry \u2005" 4 times.(âü¬ğ8É‰—Ÿª1
+j
+java:S1192¼"LDefine a constant instead of duplicating this literal "java hungry" 3 times.(Ğ»–à8É‰—Ÿª1
+
+java:S1192€"aDefine a constant instead of duplicating this literal "src/com/example/myconfig_out.txt" 3 times.(õË°¡8É‰—Ÿª1
+n
+java:S1192˜"KDefine a constant instead of duplicating this literal "JavaHungry" 4 times.(ïÕİÍûÿÿÿÿ8É‰—Ÿª1
+e
+java:S1192ì"GDefine a constant instead of duplicating this literal "Python" 3 times.(ÚÁÌ8É‰—Ÿª1
+l
+java:S1192"JDefine a constant instead of duplicating this literal "\\s*,\\s*" 3 times.(­íÙ£ûÿÿÿÿ8É‰—Ÿª1
+m	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¥§õ8Ì‰—Ÿª1
+q
+java:S3655•"NCall "optStr1.isPresent()" or "!optStr1.isEmpty()" before accessing the value.(”Ì¦ƒúÿÿÿÿ8®Š—Ÿª1
+L	java:S106"+Replace this use of System.out by a logger.(ÃµÀ¤şÿÿÿÿ8´Š—Ÿª1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğË÷åıÿÿÿÿ8´Š—Ÿª1
+L	java:S106"+Replace this use of System.out by a logger.(õÇÑşÿÿÿÿ8·Š—Ÿª1
+L	java:S106""+Replace this use of System.out by a logger.(¬¥îıÿÿÿÿ8¹Š—Ÿª1
+L	java:S106+"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8»Š—Ÿª1
+G	java:S1065"+Replace this use of System.out by a logger.(«ñĞÁ8½Š—Ÿª1
+G	java:S1066"+Replace this use of System.out by a logger.(øÎÿ™8½Š—Ÿª1
+M
+java:S60356"0Replace this alternation with a character class.(øÎÿ™8¾Š—Ÿª1
+G	java:S1067"+Replace this use of System.out by a logger.(¾á¦â8¾Š—Ÿª1
+L	java:S106:"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8¿Š—Ÿª1
+G	java:S106="+Replace this use of System.out by a logger.(¶ïˆô8¿Š—Ÿª1
+X	java:S125?"<This block of commented-out lines of code should be removed.(ÖÌç—8¿Š—Ÿª1
+G	java:S106A"+Replace this use of System.out by a logger.(â¶Áª8ÀŠ—Ÿª1
+G	java:S106D"+Replace this use of System.out by a logger.(™ë®â8ÀŠ—Ÿª1
+L	java:S106P"+Replace this use of System.out by a logger.(›½Ğ“şÿÿÿÿ8ÂŠ—Ÿª1
+L	java:S106X"+Replace this use of System.out by a logger.(ÍÛÈäøÿÿÿÿ8ÃŠ—Ÿª1
+G	java:S106]"+Replace this use of System.out by a logger.(û´‡Ş8ÄŠ—Ÿª1
+G	java:S106^"+Replace this use of System.out by a logger.(ó—¶8ÄŠ—Ÿª1
+G	java:S106e"+Replace this use of System.out by a logger.(ß˜¡›8ÆŠ—Ÿª1
+G	java:S106g"+Replace this use of System.out by a logger.(ß˜¡›8ÆŠ—Ÿª1
+G	java:S106i"+Replace this use of System.out by a logger.(ß˜¡›8ÆŠ—Ÿª1
+G	java:S106k"+Replace this use of System.out by a logger.(ß˜¡›8ÆŠ—Ÿª1
+G	java:S106n"+Replace this use of System.out by a logger.(ß˜¡›8ÇŠ—Ÿª1
+G	java:S106s"+Replace this use of System.out by a logger.(ß˜¡›8ÇŠ—Ÿª1
+o	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÅøÿÿÿÿ8ÈŠ—Ÿª1
+M	java:S106‚"+Replace this use of System.out by a logger.(‰œÃíşÿÿÿÿ8ÊŠ—Ÿª1
+M	java:S106…"+Replace this use of System.out by a logger.(ÿÛƒÇùÿÿÿÿ8ÊŠ—Ÿª1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(›ü¾üÿÿÿÿ8ËŠ—Ÿª1
+G	java:S106"+Replace this use of System.out by a logger.(ƒÚáB8ÌŠ—Ÿª1
+M	java:S106”"+Replace this use of System.out by a logger.(Û¥ïüıÿÿÿÿ8ÌŠ—Ÿª1
+M	java:S106•"+Replace this use of System.out by a logger.(”Ì¦ƒúÿÿÿÿ8ÍŠ—Ÿª1
+M	java:S106š"+Replace this use of System.out by a logger.(ş¢ğ‘ıÿÿÿÿ8ÍŠ—Ÿª1
+M	java:S106›"+Replace this use of System.out by a logger.(ÈâÜİüÿÿÿÿ8ÍŠ—Ÿª1
+M	java:S106Ÿ"+Replace this use of System.out by a logger.(Şò‹ºùÿÿÿÿ8ÎŠ—Ÿª1
+H	java:S106ª"+Replace this use of System.out by a logger.(¸àãõ8ÏŠ—Ÿª1
+H	java:S106°"+Replace this use of System.out by a logger.(ö•³Ö8ĞŠ—Ÿª1
+M	java:S106³"+Replace this use of System.out by a logger.(æˆåúÿÿÿÿ8ĞŠ—Ÿª1
+H	java:S106¶"+Replace this use of System.out by a logger.(–ĞøĞ8ĞŠ—Ÿª1
+b
+java:S1854È"?Remove this useless assignment to local variable "tempString2".(ïÃ¯€úÿÿÿÿ8ĞŠ—Ÿª1
+Z
+java:S1854”"7Remove this useless assignment to local variable "out".(çšöúÿÿÿÿ8ÑŠ—Ÿª1
+Y
+java:S1854“"6Remove this useless assignment to local variable "in".(í¦ Êøÿÿÿÿ8ÑŠ—Ÿª1
+Y
+java:S1854’"6Remove this useless assignment to local variable "wt".(¹ìÌÅúÿÿÿÿ8ÑŠ—Ÿª1
+U
+java:S1854‘"7Remove this useless assignment to local variable "rd1".(Ô¢Ï„8ÑŠ—Ÿª1
+H	java:S106¾"+Replace this use of System.out by a logger.(ÒæàŞ8ÒŠ—Ÿª1
+H	java:S106Â"+Replace this use of System.out by a logger.(ÈÏ¼Ÿ8ÒŠ—Ÿª1
+M	java:S106Æ"+Replace this use of System.out by a logger.(Áã©™üÿÿÿÿ8ÓŠ—Ÿª1
+S
+java:S1481È"0Remove this unused "tempString2" local variable.(ïÃ¯€úÿÿÿÿ8ÓŠ—Ÿª1
+M	java:S106Ï"+Replace this use of System.out by a logger.(Ò˜›·øÿÿÿÿ8ÓŠ—Ÿª1
+H	java:S106Ğ"+Replace this use of System.out by a logger.(«ùÿ8ÔŠ—Ÿª1
+H	java:S106Ñ"+Replace this use of System.out by a logger.(’¼‘8ÕŠ—Ÿª1
+H	java:S106×"+Replace this use of System.out by a logger.(âü¬ğ8ÖŠ—Ÿª1
+M	java:S106Ø"+Replace this use of System.out by a logger.(ĞÈ…Êıÿÿÿÿ8×Š—Ÿª1
+M	java:S106Ù"+Replace this use of System.out by a logger.(ƒ™Îëüÿÿÿÿ8ØŠ—Ÿª1
+H	java:S106Ú"+Replace this use of System.out by a logger.(÷øÍû8ÙŠ—Ÿª1
+M	java:S106à"+Replace this use of System.out by a logger.(¸éÄıÿÿÿÿ8ÚŠ—Ÿª1
+M	java:S106á"+Replace this use of System.out by a logger.(ŞÁ·îøÿÿÿÿ8ÚŠ—Ÿª1
+M	java:S106è"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8ÛŠ—Ÿª1
+H	java:S106ï"+Replace this use of System.out by a logger.(ŠÚ¦Ñ8ÜŠ—Ÿª1
+H	java:S106ğ"+Replace this use of System.out by a logger.(Ã—üØ8ÜŠ—Ÿª1
+G	java:S106ñ"+Replace this use of System.out by a logger.(¥øµ`8İŠ—Ÿª1
+M	java:S106ø"+Replace this use of System.out by a logger.(šŞÛÜøÿÿÿÿ8ŞŠ—Ÿª1
+M	java:S106ú"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8ŞŠ—Ÿª1
+M	java:S106‚"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8ßŠ—Ÿª1
+G
+java:S1481")Remove this unused "strm" local variable.(÷££æ8ßŠ—Ÿª1
+J
+java:S1481"'Remove this unused "rd" local variable.(±ïæóıÿÿÿÿ8ßŠ—Ÿª1
+F
+java:S1481‘"(Remove this unused "rd1" local variable.(Ô¢Ï„8ßŠ—Ÿª1
+J
+java:S1481’"'Remove this unused "wt" local variable.(¹ìÌÅúÿÿÿÿ8àŠ—Ÿª1
+J
+java:S1481“"'Remove this unused "in" local variable.(í¦ Êøÿÿÿÿ8àŠ—Ÿª1
+K
+java:S1481”"(Remove this unused "out" local variable.(çšöúÿÿÿÿ8àŠ—Ÿª1
+H	java:S106—"+Replace this use of System.out by a logger.(§˜ûâ8àŠ—Ÿª1
+G	java:S106š"+Replace this use of System.out by a logger.(°Ÿ÷a8áŠ—Ÿª1

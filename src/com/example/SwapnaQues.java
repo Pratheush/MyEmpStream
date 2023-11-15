@@ -36,22 +36,23 @@ public class SwapnaQues {
         String revStr=IntStream.range(0,str.length())
                 .mapToObj(i-> str.charAt(str.length()-i-1))
                 .map(Objects::toString)
-                .collect(Collectors.joining());
+                .collect(Collectors.joining(""));
         System.out.println(revStr);
 
         String revStr1=Arrays.stream(str.split(""))
                 .reduce("",(prevChar, nexChar)->nexChar+prevChar,String::concat);
         System.out.println(revStr1);
 
-        IntStream.range(0, str.length())
+        String revStr2=IntStream.range(0, str.length())
                 .mapToObj(i -> str.charAt(str.length() - i - 1))
                 .collect(StringBuilder::new, StringBuilder::append,StringBuilder::append)
                 .toString();
+        System.out.println(revStr2);
 
 
         String gl="Good Looking";
-        String uniqueString=Stream.of(gl.split(""))
-                .collect(Collectors.toMap(k->k,v->1,(v1,v2)->v1+v2))
+        String uniqueString=Stream.of(gl.toLowerCase().split(""))
+                .collect(Collectors.toMap(k->k,v->1,(v1,v2)->v1+v2,LinkedHashMap::new))
                 .entrySet().stream()
                 .filter(e->e.getValue()==1)
                 .map(Map.Entry::getKey)
@@ -71,7 +72,7 @@ public class SwapnaQues {
         Output.....4a3b2c4e*/
         String sw="aaaabbbcceeee";
         String outputSW=sw.chars()
-                .mapToObj(s-> (char) s)
+                .mapToObj(s-> Character.toLowerCase((char) s))
                 .collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
                 .entrySet().stream()
                 .map(e-> e.getValue().toString()+e.getKey().toString())

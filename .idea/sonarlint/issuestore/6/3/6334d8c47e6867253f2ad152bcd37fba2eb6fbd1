@@ -1,0 +1,67 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹„ã˜8ğ¿¢€¹1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†²¥øÿÿÿÿ8¯À¢€¹1
+L	java:S106"+Replace this use of System.out by a logger.(äøºóüÿÿÿÿ8²À¢€¹1
+n
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(„Å‚Â8²À¢€¹1
+B
+java:S3457"%String contains no format specifiers.(„Å‚Â8²À¢€¹1
+G	java:S106"+Replace this use of System.out by a logger.(„Å‚Â8²À¢€¹1
+G	java:S106 "+Replace this use of System.out by a logger.(¢¯ó8³À¢€¹1
+G	java:S106#"+Replace this use of System.out by a logger.(¦îÑ¥8´À¢€¹1
+L	java:S106%"+Replace this use of System.out by a logger.(á’×—şÿÿÿÿ8µÀ¢€¹1
+o	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó’¦ûÿÿÿÿ8µÀ¢€¹1
+s
+java:S3457*"Q%n should be used in place of \n to produce the platform-specific line separator.(İ©£´şÿÿÿÿ8¶À¢€¹1
+G
+java:S3457*"%String contains no format specifiers.(İ©£´şÿÿÿÿ8¶À¢€¹1
+L	java:S106*"+Replace this use of System.out by a logger.(İ©£´şÿÿÿÿ8¶À¢€¹1
+G	java:S106/"+Replace this use of System.out by a logger.(çÅŞ8¹À¢€¹1
+s
+java:S34570"Q%n should be used in place of \n to produce the platform-specific line separator.(õ÷ £şÿÿÿÿ8ºÀ¢€¹1
+G
+java:S34570"%String contains no format specifiers.(õ÷ £şÿÿÿÿ8ºÀ¢€¹1
+L	java:S1060"+Replace this use of System.out by a logger.(õ÷ £şÿÿÿÿ8ºÀ¢€¹1
+L	java:S1065"+Replace this use of System.out by a logger.(üÔÙ¯şÿÿÿÿ8¼À¢€¹1
+s
+java:S34576"Q%n should be used in place of \n to produce the platform-specific line separator.(õ÷ £şÿÿÿÿ8¼À¢€¹1
+G
+java:S34576"%String contains no format specifiers.(õ÷ £şÿÿÿÿ8½À¢€¹1
+L	java:S1066"+Replace this use of System.out by a logger.(õ÷ £şÿÿÿÿ8½À¢€¹1
+{
+java:S3012:"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Î²¢ôşÿÿÿÿ8½À¢€¹1
+L	java:S106;"+Replace this use of System.out by a logger.(‡òüüÿÿÿÿ8¾À¢€¹1
+L	java:S106@"+Replace this use of System.out by a logger.(¤ÙÒ„ÿÿÿÿÿ8ÀÀ¢€¹1
+F	java:S106D"+Replace this use of System.out by a logger.(¦ŠQ8ÂÀ¢€¹1
+o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İĞÅùÿÿÿÿ8ÁÀ¢€¹1
+G	java:S106H"+Replace this use of System.out by a logger.(£½Æİ8ÄÀ¢€¹1
+L	java:S106P"+Replace this use of System.out by a logger.(Ê—•°øÿÿÿÿ8ÅÀ¢€¹1
+L	java:S106R"+Replace this use of System.out by a logger.(äøºóüÿÿÿÿ8ÅÀ¢€¹1
+L	java:S106U"+Replace this use of System.out by a logger.(Ì‘µ…úÿÿÿÿ8ÆÀ¢€¹1
+G	java:S106Y"+Replace this use of System.out by a logger.(¢¯ó8ÇÀ¢€¹1
+L	java:S106\"+Replace this use of System.out by a logger.(¯ÆêŠûÿÿÿÿ8ÈÀ¢€¹1
+L	java:S106a"+Replace this use of System.out by a logger.(™ñ´Çıÿÿÿÿ8ÉÀ¢€¹1
+G	java:S106d"+Replace this use of System.out by a logger.(óœĞ¢8ÊÀ¢€¹1
+G	java:S106f"+Replace this use of System.out by a logger.(Á“†½8ËÀ¢€¹1
+j	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ç¥é8ÊÀ¢€¹1
+F	java:S106j"+Replace this use of System.out by a logger.(úÙó"8ÍÀ¢€¹1
+G	java:S106s"+Replace this use of System.out by a logger.(­³Ğ8ÍÀ¢€¹1
+G	java:S106x"+Replace this use of System.out by a logger.(­³Ğ8ÎÀ¢€¹1
+L	java:S106y"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÎÀ¢€¹1
+G	java:S106}"+Replace this use of System.out by a logger.(­³Ğ8ÏÀ¢€¹1
+M	java:S106€"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÏÀ¢€¹1
+d
+java:S3457‚"AFormat specifiers should be used instead of string concatenation.(İÖ™­øÿÿÿÿ8ÏÀ¢€¹1
+M	java:S106‚"+Replace this use of System.out by a logger.(İÖ™­øÿÿÿÿ8ĞÀ¢€¹1
+M	java:S106…"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ĞÀ¢€¹1
+H	java:S106‡"+Replace this use of System.out by a logger.(­³Ğ8ÑÀ¢€¹1
+H	java:S106Œ"+Replace this use of System.out by a logger.(­³Ğ8ÔÀ¢€¹1
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÅõ‡8ĞÀ¢€¹1
+H	java:S106‘"+Replace this use of System.out by a logger.(¦›ş–8ÔÀ¢€¹1
+M	java:S106›"+Replace this use of System.out by a logger.(·Ÿ§ºıÿÿÿÿ8ÕÀ¢€¹1
+M	java:S106"+Replace this use of System.out by a logger.(·Ÿ§ºıÿÿÿÿ8ÖÀ¢€¹1
+H	java:S106Ÿ"+Replace this use of System.out by a logger.(Ñ¹ªü8°£€¹1
+^	java:S125¢"<This block of commented-out lines of code should be removed.(áÊË¾øÿÿÿÿ8ÕÀ¢€¹1
+d
+java:S3457£"AFormat specifiers should be used instead of string concatenation.(»Õ·”üÿÿÿÿ8ÖÀ¢€¹1
+M	java:S106£"+Replace this use of System.out by a logger.(»Õ·”üÿÿÿÿ8ÊÎÕ€¹1

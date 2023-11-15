@@ -1,0 +1,27 @@
+
+v
+java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ü¤İ8ÓèñÃ©1
+u
+java:S1192"SDefine a constant instead of duplicating this literal " are not anagrams." 3 times.(Ş†ÑÁøÿÿÿÿ8ÙèñÃ©1
+q
+java:S1192"ODefine a constant instead of duplicating this literal " are anagrams." 3 times.(›ı¢ıÿÿÿÿ8ÜèñÃ©1
+h
+java:S1192"FDefine a constant instead of duplicating this literal " and " 6 times.(›ı¢ıÿÿÿÿ8ÜèñÃ©1
+
+java:S1319O"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(— ÕÖøÿÿÿÿ8İèñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(›ı¢ıÿÿÿÿ8±éñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(Ş†ÑÁøÿÿÿÿ8²éñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(›ı¢ıÿÿÿÿ8³éñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(Ş†ÑÁøÿÿÿÿ8µéñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(›ı¢ıÿÿÿÿ8·éñÃ©1
+L	java:S106"+Replace this use of System.out by a logger.(Ş†ÑÁøÿÿÿÿ8¹éñÃ©1
+^
+java:S18544"<Remove this useless assignment to local variable "str2char".(äéÔºùÿÿÿÿ8ÀéñÃ©1
+O
+java:S14814"-Remove this unused "str2char" local variable.(äéÔºùÿÿÿÿ8ÇéñÃ©1
+L	java:S106F"+Replace this use of System.out by a logger.(İ¼Ã¡şÿÿÿÿ8ÏéñÃ©1
+G	java:S106J"+Replace this use of System.out by a logger.(‡Š8ĞéñÃ©1
+j
+java:S2175R"HA "HashMap<String, Integer>" cannot contain a "char" in a "String" type.(Ë§í­ÿÿÿÿÿ8ÚéñÃ©1
+e
+java:S2175S"HA "HashMap<String, Integer>" cannot contain a "char" in a "String" type.(¡ã¤õ8ÜéñÃ©1

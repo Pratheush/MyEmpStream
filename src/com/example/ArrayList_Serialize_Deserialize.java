@@ -2,6 +2,7 @@ package com.example;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayList_Serialize_Deserialize {
     public static void main(String[] args) {
@@ -28,7 +29,9 @@ public class ArrayList_Serialize_Deserialize {
             objOS.writeObject(list);
         }
         catch(IOException ex) {
-            ex.printStackTrace();
+            System.err.println(ex.getMessage());
+            //ex.printStackTrace();
+            return;
         }
 
 

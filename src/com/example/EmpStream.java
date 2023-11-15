@@ -10,6 +10,9 @@ public class EmpStream {
         getCountOfMaleFemale();
         getDepartmentName();
         getAverageAgeOfMaleFemale();
+        getEmployeeJoinedAfter2017();
+        getAverageAgeOfEmployeeDepartment();
+        getAverageAgeOfEmployeeDepartment();
         getNameOfEmp2015();
         countEmpByDept();
         avgSalaryDept();
@@ -24,15 +27,17 @@ public class EmpStream {
         seniorMostEmpDept();
         System.out.println("********************************************");
         seniorEmpComp();
+        youngestEmpComp();
         System.out.println(":::::::::::::::::::::::::::::::::::::::::::");
         myPartitioningByExample();
         myPartitioningByExample1();
         myReducingExample();
+        femaleEmployeeDept();
     }
     public static void getCountOfMaleFemale(){
         System.out.println("getCountOfMaleFemale");
         ArrayList<Employee> employees=Employee.getEmployeeList();
-        long fcount=employees.stream().filter(e-> e.getGender().equalsIgnoreCase("female")).count();
+        long fcount=employees.stream().filter(e-> "female".equalsIgnoreCase(e.getGender())).count();
         System.out.println(fcount);
         long mcount=employees.stream().filter(e-> e.getGender().equalsIgnoreCase("male")).count();
         System.out.println(mcount);
@@ -60,6 +65,23 @@ public class EmpStream {
         Map<String,Double> avgAge=employees.stream()
                 .collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
         System.out.println(avgAge);
+    }
+
+    public static void getEmployeeJoinedAfter2017(){
+        System.out.println("getEmployeeJoinedAfter2017");
+        ArrayList<Employee> employees=Employee.getEmployeeList();
+        List<Employee> elist2017=employees.stream()
+                .collect(Collectors.filtering(e->e.getYearOfJoining()>2017,Collectors.toList()));
+        System.out.println(elist2017);
+    }
+
+    public static void getAverageAgeOfEmployeeDepartment(){
+        System.out.println("getAverageAgeOfEmployeeDepartment");
+        ArrayList<Employee> employees=Employee.getEmployeeList();
+        Map<String,Integer> avgAgeDpt=employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getDepartment,
+                                Collectors.collectingAndThen(Collectors.averagingInt(Employee::getAge),avgAge-> (int) Math.round(avgAge) )));
+        System.out.println(avgAgeDpt);
     }
 
     public static void getNameOfEmp2015(){
@@ -138,7 +160,7 @@ public class EmpStream {
         System.out.println("listDownEmpDept");
         ArrayList<Employee> employees=Employee.getEmployeeList();
         Map<String,List<Employee>>  empListDept=employees.stream()
-                .collect(Collectors.groupingBy(Employee::getDepartment));
+                .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.collectingAndThen(Collectors.toList(),Collections::unmodifiableList)));
         for(Map.Entry<String,List<Employee>> e:empListDept.entrySet()){
             System.out.println("Deparment::::"+e.getKey());
             System.out.println(e.getValue().stream().map(Employee::getName).collect(Collectors.toList()));
@@ -171,6 +193,19 @@ public class EmpStream {
         System.out.println(optEmp.get().getYearOfJoining());
     }
 
+    public static void youngestEmpComp(){
+        System.out.println("youngestEmpComp()");
+        ArrayList<Employee> employees=Employee.getEmployeeList();
+        employees.stream()
+                .max(Comparator.comparingInt(Employee::getYearOfJoining))
+                .ifPresentOrElse(employee -> System.out.println(employee),()-> System.out.println("No Youngest Employee"));
+
+        employees.stream()
+                .sorted(Comparator.comparingInt(Employee::getYearOfJoining).reversed())
+                .findFirst()
+                .ifPresentOrElse(employee -> System.out.println(employee),()-> System.out.println("No Youngest Employee"));
+    }
+
     public static void myPartitioningByExample(){
         System.out.println("myPartitioningByExample");
         ArrayList<Employee> employees=Employee.getEmployeeList();
@@ -195,7 +230,19 @@ public class EmpStream {
         ArrayList<Employee> employees=Employee.getEmployeeList();
         Map<String,Optional<Employee>> empDeptMinSal= employees.stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.reducing(BinaryOperator.minBy(Comparator.comparingDouble(Employee::getSalary)))));
-        System.out.println(empDeptMinSal);
+        System.out.println(empDeptMinSal);Map<String,Optional<Employee>> empDeptMaxSal= employees.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.reducing(BinaryOperator.maxBy(Comparator.comparingDouble(Employee::getSalary)))));
+        System.out.println(empDeptMaxSal);
+    }
+
+    public static void femaleEmployeeDept(){
+        System.out.println("femaleEmployeeDept");
+        ArrayList<Employee> employees=Employee.getEmployeeList();
+        Map<String,Integer> femaleEmpByDept=employees.stream()
+                .collect(Collectors.filtering(e->"female".equalsIgnoreCase(e.getGender()),Collectors.toList()))
+                .stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.collectingAndThen(Collectors.reducing(0,e->1,Integer::sum),count->count)));
+        System.out.println(femaleEmpByDept);
     }
 }
 

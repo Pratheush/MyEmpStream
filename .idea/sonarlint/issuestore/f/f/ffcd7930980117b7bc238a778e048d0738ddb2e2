@@ -1,0 +1,143 @@
+
+n	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ô¾”8ú´û’½1
+n
+java:S3655»"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(áå®8­µû’½1
+m
+java:S3655l"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ßú Ä8­µû’½1
+n
+java:S3655°"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰ö‡ƒ8­µû’½1
+G	java:S106"+Replace this use of System.out by a logger.(œÈº¬8îµû’½1
+G	java:S106"+Replace this use of System.out by a logger.(™Şé¢8ïµû’½1
+G	java:S106"+Replace this use of System.out by a logger.(ÌßŒ8ïµû’½1
+L	java:S106*"+Replace this use of System.out by a logger.(ßæ–‘úÿÿÿÿ8òµû’½1
+G	java:S106,"+Replace this use of System.out by a logger.(­Ó¢¬8ôµû’½1
+G	java:S106/"+Replace this use of System.out by a logger.(µË®¾8ôµû’½1
+o
+java:S62045"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8õµû’½1
+[
+java:S16124">Replace this lambda with method reference 'Integer::parseInt'.(°¶â‹8÷µû’½1
+F	java:S1066"+Replace this use of System.out by a logger.(ÅÑÑv8÷µû’½1
+G	java:S106;"+Replace this use of System.out by a logger.(¼ğ—ò8øµû’½1
+o
+java:S6204D"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ùµû’½1
+G	java:S106E"+Replace this use of System.out by a logger.(Ğ·…Ğ8ûµû’½1
+G	java:S106G"+Replace this use of System.out by a logger.(Íıó8ûµû’½1
+B
+java:S3457M"%String contains no format specifiers.(§‹¿8ıµû’½1
+G	java:S106M"+Replace this use of System.out by a logger.(§‹¿8ıµû’½1
+F	java:S106N"+Replace this use of System.out by a logger.(“ñ“.8ıµû’½1
+L	java:S106S"+Replace this use of System.out by a logger.(ÓÛíñøÿÿÿÿ8şµû’½1
+G	java:S106W"+Replace this use of System.out by a logger.(Éà¦è8ÿµû’½1
+G	java:S106W"+Replace this use of System.out by a logger.(Éà¦è8ÿµû’½1
+L	java:S106\"+Replace this use of System.out by a logger.(ı³”ˆùÿÿÿÿ8€¶û’½1
+L	java:S106_"+Replace this use of System.out by a logger.(õ¿¥ùÿÿÿÿ8¶û’½1
+G	java:S106b"+Replace this use of System.out by a logger.(¹½Çå8‚¶û’½1
+_
+java:S1854"ARemove this useless assignment to local variable "primitiveInt1".(‹¶èÎ8‚¶û’½1
+a
+java:S1854‹">Remove this useless assignment to local variable "wrapperInt".(¤îï©ıÿÿÿÿ8‚¶û’½1
+G	java:S106f"+Replace this use of System.out by a logger.(Ãôà³8ƒ¶û’½1
+L	java:S106j"+Replace this use of System.out by a logger.(ìÕûÚøÿÿÿÿ8„¶û’½1
+L	java:S106j"+Replace this use of System.out by a logger.(ìÕûÚøÿÿÿÿ8„¶û’½1
+L	java:S106o"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8…¶û’½1
+G	java:S106u"+Replace this use of System.out by a logger.(ñ‹Èœ8†¶û’½1
+X	java:S125{"<This block of commented-out lines of code should be removed.(¨œ°ú8†¶û’½1
+^	java:S125"<This block of commented-out lines of code should be removed.(ü§ øÿÿÿÿ8†¶û’½1
+H	java:S106†"+Replace this use of System.out by a logger.(°©Òİ8‡¶û’½1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(à««Ë8‡¶û’½1
+R
+java:S1481‹"/Remove this unused "wrapperInt" local variable.(¤îï©ıÿÿÿÿ8ˆ¶û’½1
+P
+java:S1481"2Remove this unused "primitiveInt1" local variable.(‹¶èÎ8ˆ¶û’½1
+H	java:S106”"+Replace this use of System.out by a logger.(îšÜç8‰¶û’½1
+?
+java:S3864™"!Remove this use of "Stream.peek".(‚ÄÊ8Š¶û’½1
+H	java:S106™"+Replace this use of System.out by a logger.(‚ÄÊ8Œ¶û’½1
+]
+java:S1612":Replace this lambda with method reference 'Entry::getKey'.(¡—ÉÇÿÿÿÿÿ8¶û’½1
+H	java:S106¡"+Replace this use of System.out by a logger.(±Õì8¶û’½1
+^	java:S125 "<This block of commented-out lines of code should be removed.(ÛÊ¤±úÿÿÿÿ8¶û’½1
+?
+java:S2153¦"!Remove the boxing to "Character".(Á™ªÔ8¶û’½1
+]
+java:S1612«":Replace this lambda with method reference 'Entry::getKey'.(¡—ÉÇÿÿÿÿÿ8‘¶û’½1
+R
+java:S1611®"/Remove the parentheses around the "v" parameter(›„£Òÿÿÿÿÿ8‘¶û’½1
+M	java:S106®"+Replace this use of System.out by a logger.(›„£Òÿÿÿÿÿ8‘¶û’½1
+M	java:S106®"+Replace this use of System.out by a logger.(›„£Òÿÿÿÿÿ8‘¶û’½1
+M	java:S106¹"+Replace this use of System.out by a logger.(µ’¤¾şÿÿÿÿ8•¶û’½1
+H	java:S106Â"+Replace this use of System.out by a logger.(œ­ô•8—¶û’½1
+H	java:S106Í"+Replace this use of System.out by a logger.(ç³ªß8™¶û’½1
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(’€•¼8š¶û’½1
+M	java:S106Õ"+Replace this use of System.out by a logger.(Œ¡¦ûÿÿÿÿ8›¶û’½1
+]
+java:S1612Ü":Replace this lambda with method reference 'Entry::getKey'.(¡—ÉÇÿÿÿÿÿ8¶û’½1
+M	java:S106á"+Replace this use of System.out by a logger.(Ô†Îäùÿÿÿÿ8¶û’½1
+M	java:S106á"+Replace this use of System.out by a logger.(Ô†Îäùÿÿÿÿ8¶û’½1
+M	java:S106å"+Replace this use of System.out by a logger.(ó½†­şÿÿÿÿ8Ÿ¶û’½1
+M	java:S106ñ"+Replace this use of System.out by a logger.(¬œ‚ùÿÿÿÿ8¡¶û’½1
+M	java:S106ñ"+Replace this use of System.out by a logger.(¬œ‚ùÿÿÿÿ8¡¶û’½1
+M	java:S106ö"+Replace this use of System.out by a logger.(Á«ˆ¥ùÿÿÿÿ8¢¶û’½1
+p
+java:S6204ú"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¢¶û’½1
+H	java:S106û"+Replace this use of System.out by a logger.(éæ„¨8¢¶û’½1
+M	java:S106€"+Replace this use of System.out by a logger.(ı£ ƒÿÿÿÿÿ8£¶û’½1
+^	java:S125ÿ"<This block of commented-out lines of code should be removed.(Â±È¡üÿÿÿÿ8£¶û’½1
+Y	java:S125…"<This block of commented-out lines of code should be removed.(‡ìÚŸ8¤¶û’½1
+K
+java:S1125†"(Remove the unnecessary boolean literals.(æá¾ªÿÿÿÿÿ8¤¶û’½1
+M	java:S106Š"+Replace this use of System.out by a logger.(¨¾ìûÿÿÿÿ8¤¶û’½1
+H	java:S106‹"+Replace this use of System.out by a logger.(Ç¶¬±8¥¶û’½1
+M	java:S106"+Replace this use of System.out by a logger.(öù£şÿÿÿÿÿ8¥¶û’½1
+M	java:S106"+Replace this use of System.out by a logger.(†ÄÒ²úÿÿÿÿ8¥¶û’½1
+\
+java:S1854–"9Remove this useless assignment to local variable "list1".(÷¦áâÿÿÿÿÿ8¦¶û’½1
+H	java:S106”"+Replace this use of System.out by a logger.(‚ºØà8¦¶û’½1
+M
+java:S1481–"*Remove this unused "list1" local variable.(÷¦áâÿÿÿÿÿ8¦¶û’½1
+H	java:S106š"+Replace this use of System.out by a logger.(ëõÿì8§¶û’½1
+M	java:S106"+Replace this use of System.out by a logger.(¦™Ÿ¬úÿÿÿÿ8¨¶û’½1
+M	java:S106£"+Replace this use of System.out by a logger.(äÅÉıÿÿÿÿ8©¶û’½1
+k	java:S100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ•ö8ª¶û’½1
+H	java:S106§"+Replace this use of System.out by a logger.(Œ¦Âª8ª¶û’½1
+M
+java:S1197¨"*Move the array designators [] to the type.(†®ùÌùÿÿÿÿ8«¶û’½1
+H	java:S106«"+Replace this use of System.out by a logger.(÷†‹8«¶û’½1
+M	java:S106¬"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8«¶û’½1
+M	java:S106®"+Replace this use of System.out by a logger.(–ÀÑ¬ÿÿÿÿÿ8¬¶û’½1
+M	java:S106µ"+Replace this use of System.out by a logger.(öåŒùÿÿÿÿ8­¶û’½1
+M	java:S106º"+Replace this use of System.out by a logger.(¾²ŠĞúÿÿÿÿ8¯¶û’½1
+H	java:S106¾"+Replace this use of System.out by a logger.(ª÷ª¸8°¶û’½1
+H	java:S106Å"+Replace this use of System.out by a logger.(ß¨çŞ8²¶û’½1
+Y	java:S125Ä"<This block of commented-out lines of code should be removed.(Ä€Øñ8³¶û’½1
+H	java:S106Ê"+Replace this use of System.out by a logger.(”è”º8´¶û’½1
+H	java:S106Î"+Replace this use of System.out by a logger.(Ç¤ş…8µ¶û’½1
+Y	java:S125Ó"<This block of commented-out lines of code should be removed.(ˆ¡ü–8¶¶û’½1
+M	java:S106Ô"+Replace this use of System.out by a logger.(¹êÛàùÿÿÿÿ8¶¶û’½1
+G	java:S106Ø"+Replace this use of System.out by a logger.(õÓD8·¶û’½1
+M	java:S106İ"+Replace this use of System.out by a logger.(£¶åºüÿÿÿÿ8¸¶û’½1
+M	java:S106ä"+Replace this use of System.out by a logger.(É««Ãÿÿÿÿÿ8º¶û’½1
+c
+java:S1854ê"@Remove this useless assignment to local variable "integerList1".(Ú¬¬ÿüÿÿÿÿ8º¶û’½1
+H	java:S106è"+Replace this use of System.out by a logger.(Ñ¼ã“8º¶û’½1
+T
+java:S1481ê"1Remove this unused "integerList1" local variable.(Ú¬¬ÿüÿÿÿÿ8»¶û’½1
+M	java:S106ğ"+Replace this use of System.out by a logger.(‚…±Øøÿÿÿÿ8¼¶û’½1
+M	java:S106ò"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¼¶û’½1
+H	java:S106ø"+Replace this use of System.out by a logger.(’ßõİ8½¶û’½1
+Y	java:S125ù"<This block of commented-out lines of code should be removed.(·‡·˜8½¶û’½1
+H	java:S106‰"+Replace this use of System.out by a logger.(‚¨§¨8¾¶û’½1
+M	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8¿¶û’½1
+M	java:S106—"+Replace this use of System.out by a logger.(¶„ŠÔûÿÿÿÿ8¿¶û’½1
+M	java:S106›"+Replace this use of System.out by a logger.(Ê«îÎøÿÿÿÿ8À¶û’½1
+?
+java:S2153Ÿ"!Remove the boxing to "Character".(Á™ªÔ8Á¶û’½1
+H	java:S106¡"+Replace this use of System.out by a logger.(±„×œ8Â¶û’½1
+G	java:S106¦"+Replace this use of System.out by a logger.(¿ú18Ã¶û’½1
+H	java:S106­"+Replace this use of System.out by a logger.(¾ô±ã8Ä¶û’½1
+Y
+java:S1128"7Remove this unused import 'javax.sound.midi.Soundbank'.(µÊøÿÿÿÿ8£üû’½1
+W
+java:S1128":Remove this unused import 'java.util.function.BiFunction'.(ô¿°×8¤üû’½1
+Y
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8¤üû’½1

@@ -1,0 +1,13 @@
+
+v
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÏÕ¢8ÉˆÄÇ¤1
+v
+java:S1192K"TDefine a constant instead of duplicating this literal "Product Development" 5 times.(ËÃıÿÿÿÿ8ÕˆÄÇ¤1
+v
+java:S1192I"TDefine a constant instead of duplicating this literal "Sales And Marketing" 3 times.(Œ¯º½şÿÿÿÿ8ĞˆÄÇ¤1
+l
+java:S1192J"ODefine a constant instead of duplicating this literal "Infrastructure" 3 times.(èÜ…8ÒˆÄÇ¤1
+d
+java:S1192H"GDefine a constant instead of duplicating this literal "Female" 6 times.(µ¯ÂÜ8ÓˆÄÇ¤1
+’
+java:S1319E"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ƒ½ÊÇùÿÿÿÿ8­•ÅÇ¤1

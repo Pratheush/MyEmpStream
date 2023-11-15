@@ -1,0 +1,17 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(“—“úÿÿÿÿ8ÜÌ™º¼1
+G	java:S106"+Replace this use of System.out by a logger.(¬­ÖŒ8ŞÌ™º¼1
+L	java:S106"+Replace this use of System.out by a logger.(“Ÿ÷Ÿüÿÿÿÿ8àÌ™º¼1
+X	java:S125"<This block of commented-out lines of code should be removed.(¦ó˜8ãÌ™º¼1
+G	java:S106""+Replace this use of System.out by a logger.(ÃË÷­8äÌ™º¼1
+L	java:S106("+Replace this use of System.out by a logger.(†ÒËñüÿÿÿÿ8éÌ™º¼1
+G	java:S106,"+Replace this use of System.out by a logger.(…şÿâ8ëÌ™º¼1
+G	java:S1062"+Replace this use of System.out by a logger.(É†Ïš8ïÌ™º¼1
+L	java:S106<"+Replace this use of System.out by a logger.(ÜÎŒ®ùÿÿÿÿ8õÌ™º¼1
+>
+java:S2153?"!Remove the boxing to "Character".(Á™ªÔ8øÌ™º¼1
+G	java:S106E"+Replace this use of System.out by a logger.(ªÅÌÓ8ûÌ™º¼1
+G	java:S106E"+Replace this use of System.out by a logger.(ªÅÌÓ8üÌ™º¼1
+G	java:S106Q"+Replace this use of System.out by a logger.(äÈº8€Í™º¼1
+X
+java:S1128";Remove this unused import 'java.util.function.IntFunction'.(½†¶Ú8Í™º¼1

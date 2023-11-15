@@ -1,0 +1,20 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(š®—ùıÿÿÿÿ8Ò”Šñª1
+r	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Êµ‘øÿÿÿÿ8Ô”Šñª1
+r	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·›Ëæùÿÿÿÿ8Ô”Šñª1
+L	java:S106"+Replace this use of System.out by a logger.(¯™ĞÇùÿÿÿÿ8°•Šñª1
+L	java:S106"+Replace this use of System.out by a logger.(Ö¡ä°ûÿÿÿÿ8²•Šñª1
+G	java:S106"+Replace this use of System.out by a logger.(Ïù…±8²•Šñª1
+G	java:S106"+Replace this use of System.out by a logger.(óÔÄ8³•Šñª1
+G	java:S106)"+Replace this use of System.out by a logger.(„êş‹8¶•Šñª1
+L	java:S106."+Replace this use of System.out by a logger.(ûÙğùÿÿÿÿ8¸•Šñª1
+G	java:S1061"+Replace this use of System.out by a logger.(ŸàÛ¦8¹•Šñª1
+G	java:S1062"+Replace this use of System.out by a logger.(Í¾‡³8º•Šñª1
+L	java:S106="+Replace this use of System.out by a logger.(Æ¼‘©ûÿÿÿÿ8¾•Šñª1
+L	java:S106C"+Replace this use of System.out by a logger.(±Èõ¾øÿÿÿÿ8Á•Šñª1
+G	java:S106I"+Replace this use of System.out by a logger.(‚ú€Ş8Ã•Šñª1
+]	java:S125N"<This block of commented-out lines of code should be removed.(Óªó´üÿÿÿÿ8Å•Šñª1
+G	java:S106["+Replace this use of System.out by a logger.(˜ÙÚ²8É•Šñª1
+L	java:S106e"+Replace this use of System.out by a logger.(ŠùËúüÿÿÿÿ8Í•Šñª1
+L	java:S106m"+Replace this use of System.out by a logger.(›¤ñ¸üÿÿÿÿ8Ï•Šñª1
